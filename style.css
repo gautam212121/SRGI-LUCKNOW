@@ -78,11 +78,17 @@ h2 {
     border: #e85222;
     background-color: #e85222;
     font-weight: bold;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 7px;
     margin: 10px 0px 0px 0px;
     border-radius: 4px;
+
 }
+
+.underline {
+    color: #fff;
+    text-decoration: none;
+} 
 
 @media only screen and (max-width:992px) {
 
@@ -271,14 +277,26 @@ h1 {
     top: -50px;
     transition: transform 3s;
 }
-#box888 :hover{
+
+#box888 :hover {
     transform: scale(1.1);
     z-index: 2;
 }
-.text-center, img :hover{
+
+.text-center,
+img :hover {
     transform: scale(1.1);
     z-index: 2;
 }
-.text-center{
+
+.text-center {
     transform: transform 3s;
+}
+
+@media (max-width:775) {
+    .box4 img{
+        width: 50%;
+        height: 50%;
+       
+    }
 }
